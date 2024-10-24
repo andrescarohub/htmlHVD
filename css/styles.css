@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, black, blue);
+    background: linear-gradient(to right, black, rgb(0, 77, 73));
     color: white;
     padding: 20px;
 }
@@ -65,7 +65,7 @@ ul {
 }
 
 ul li {
-    color: #00aaff; /* Azul fino para las viñetas */
+    color: #ffffff; /* Azul fino para las viñetas */
 }
 
 /* Tabla para la experiencia laboral */
@@ -81,7 +81,7 @@ th, td {
 }
 
 th {
-    color: #00aaff;
+    color: #ffffff;
 }
 
 /* Bordes para las tablas eliminados, ahora solo líneas */

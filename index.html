@@ -11,26 +11,60 @@
         <div class="left-column">
             <div class="photo-container">
                 <img src="images/unnamed.jpg" alt="Foto de perfil">
+                <header>
+                    <h3>Andres Felipe</h3>
+                    <h3>racines caro</h3>
+                    <h3>racinescaro@gmail.com</h3>
+                    <h3>321 417 8993</h3>
+                    <h3>21 años</h3>
+                    <h3>cra19 #14-19</h3>
+                </header>
             </div>
         </div>
         <div class="middle-column">
             <header>
-                <h1>Nombre Completo</h1>
-                <p>Profesión o título</p>
+                <h1>Estudios</h1>
+                <ul>
+                    <li>Sena
+                        <ul>
+                            <li><b>ANALISIS Y DESARROLLO DE SOFTWARE INTERNO</b></li>
+                            <li>Años: 2022 - 2024</li>
+                        </ul>
+                    </li>
+                    <li>Instituto Técnico Guaimaral
+                        <ul>
+                            <li><b>Bachiller Técnico en Diseño Gráfico</b></li>
+                            <li>Años: 2008 - 2021</li>
+                        </ul>
+                    </li>
+                </ul>
             </header>
-            <section class="profile">
-                <h2>Perfil</h2>
-                <p>Breve descripción sobre ti, tus habilidades y experiencia.</p>
+            <hr class="profile">
+            <h2>Perfil</h2>
+            <p>Soy un joven trabajador y estudiante de programación, con una gran capacidad de aprendizaje y dedicación. Me apasiona el desarrollo web y busco siempre mejorar mis habilidades en el ámbito tecnológico.</p>
+            <section class="contact-form">
+                <h2>Contacto</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required><br>
+                    <label for="descripcion">Descripción:</label><br>
+                    <textarea id="descripcion" name="descripcion" rows="4" required></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
             </section>
         </div>
         <div class="right-column">
             <section class="skills">
                 <h2>Habilidades</h2>
                 <ul>
-                    <li>Habilidad 1</li>
-                    <li>Habilidad 2</li>
-                    <li>Habilidad 3</li>
-                    <li>Habilidad 4</li>
+                    <li>Desarrollo web</li>
+                    <li>Backend</li>
+                    <li>Aprendizaje rápido</li>
+                    <li>Trabajo en equipo</li>
                 </ul>
             </section>
             <section class="experience">
@@ -41,14 +75,23 @@
                         <th>Descripción</th>
                     </tr>
                     <tr>
-                        <td>Trabajo 1</td>
-                        <td>Descripción de la experiencia en este trabajo.</td>
-                    </tr>
-                    <tr>
-                        <td>Trabajo 2</td>
-                        <td>Descripción de la experiencia en este trabajo.</td>
+                        <td>Enfoque Marketing Digital</td>
+                        <td>Ayudé en el desarrollo gráfico de campañas publicitarias, colaborando con el equipo para mejorar la visibilidad de nuestros clientes.</td>
                     </tr>
                 </table>
+            </section>
+            <section class="projects">
+                <h2>Proyectos</h2>
+                <ul>
+                    <li>
+                        <b>Liga BetPlay</b>
+                        <p>Proyecto en Python que facilita la puntuación de una liga de fútbol, permitiendo una mejor gestión de los resultados.</p>
+                    </li>
+                    <li>
+                        <b>Página Web de Turismo</b>
+                        <p>Desarrollo de una página web enfocada en la publicidad de Colombia, buscando resaltar su belleza y atracciones turísticas.</p>
+                    </li>
+                </ul>
             </section>
         </div>
     </div>
